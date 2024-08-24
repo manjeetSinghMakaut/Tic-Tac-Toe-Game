@@ -1,0 +1,22 @@
+.board{
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(3,1fr);
+    width: 250px;
+    margin: 20px auto;
+}
+
+.cell{
+    height: 70px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: rgb(204, 198, 198);
+    border-radius: 4px;
+}
+
+#reset{
+    display: block;
+    margin: 20px auto;
+}
