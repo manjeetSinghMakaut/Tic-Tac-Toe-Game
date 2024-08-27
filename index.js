@@ -26,14 +26,14 @@ const handleClickChange = (e) => {
     cell.textContent = currentPlayer;
 
     if (checkWin(currentPlayer)) {
-        alert(`${currentPlayer} wins!`);
         gameActive = false;
+        alert(`${currentPlayer} wins!`);
         return;
     }
 
     if (checkDraw()) {
-        alert("It's a draw!");
         gameActive = false;
+        alert("It's a draw!");
         return;
     }
 

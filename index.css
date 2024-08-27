@@ -1,6 +1,6 @@
 
 body {
-    background-color: #f0f0f0;
+    background-color: #f7f7dd;
     font-family: Arial, sans-serif;
 }
 .board{
@@ -40,6 +40,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     font-family: emoji;
+    cursor: pointer;
 
     
 }
@@ -49,11 +50,17 @@ body {
     background-color: #27ae60;  
 }
 
+.innerdiv{
+    height: 318px;
+    width: 410px;
+
+}
 .maindiv{
-    height: 500px;
-    width: 100%;
+    height: 548px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #f7f7dd;
+
 }
